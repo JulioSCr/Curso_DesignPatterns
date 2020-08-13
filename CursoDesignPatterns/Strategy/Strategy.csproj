@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CalculadoraDeImpostos.cs" />
+    <Compile Include="ICCC.cs" />
     <Compile Include="ICMS.cs" />
     <Compile Include="IImposto.cs" />
     <Compile Include="ISS.cs" />
