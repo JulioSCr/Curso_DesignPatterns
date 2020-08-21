@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{D555C6B8-9409-4A08-BADF-B6269275766C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01Strategy", "Strategy\01Strategy.csproj", "{D555C6B8-9409-4A08-BADF-B6269275766C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02ChainOfResponsibility", "ChainOfResponsibility\02ChainOfResponsibility.csproj", "{CDD0348D-8068-4645-968C-E0F83931BC5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D555C6B8-9409-4A08-BADF-B6269275766C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D555C6B8-9409-4A08-BADF-B6269275766C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D555C6B8-9409-4A08-BADF-B6269275766C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD0348D-8068-4645-968C-E0F83931BC5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD0348D-8068-4645-968C-E0F83931BC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD0348D-8068-4645-968C-E0F83931BC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD0348D-8068-4645-968C-E0F83931BC5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
