@@ -2,8 +2,8 @@
 
 namespace Strategy
 {
-    public interface IImposto
-    {
-        decimal Calcular(Orcamento pOrcamento);
-    }
+	public interface IImposto
+	{
+		decimal Calcular(Orcamento pOrcamento);
+	}
 }
