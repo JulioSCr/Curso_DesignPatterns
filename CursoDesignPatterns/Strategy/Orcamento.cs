@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Strategy
 {
-    public class Orcamento
-    {
-        public decimal Valor { get; set; }
+	public class Orcamento
+	{
+		public decimal Valor { get; set; }
 
-        public Orcamento(decimal pValor)
-        {
-            this.Valor = pValor;
-        }
-    }
+		public Orcamento(decimal pValor)
+		{
+			this.Valor = pValor;
+		}
+	}
 }
