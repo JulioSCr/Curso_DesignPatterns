@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Strategy
 {
-    public class ICMS : IImposto
-    {
-        public decimal Calcular(Orcamento pOrcamento)
-        {
-            return pOrcamento.Valor * 0.5m;
-        }
-    }
+	public class ICMS : IImposto
+	{
+		public decimal Calcular(Orcamento pOrcamento)
+		{
+			return pOrcamento.Valor * 0.5m;
+		}
+	}
 }
