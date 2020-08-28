@@ -24,10 +24,12 @@ namespace Decorator
 			return $"Titular: {Titular} | Banco: {Banco} | Data de abertura: {DataAbertura:d} | Saldo {Saldo}";
 		}
 
-		public string Text { 
-			get {
+		public string Text
+		{
+			get
+			{
 				return this.ToString();
-			} 
+			}
 		}
 	}
 }
